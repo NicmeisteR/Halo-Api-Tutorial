@@ -6,7 +6,7 @@ const node = require("node-essentials");
 let serviceRecord;
 
 // The Halo 5 API key, can be found here: https://developer.haloapi.com/products/560af1e42109182040fb56fc
-const apiKey = "00000000000000000000000"
+const apiKey = "API-KEY-COMES-HERE"
 
 
 // Async function to retrieve the player Service Record.
