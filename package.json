@@ -1,0 +1,29 @@
+{
+  "name": "halo-api-tutorial",
+  "version": "1.0.0",
+  "description": "Jump into the world of REST apis and the Halo 5 API.",
+  "main": "index.js",
+  "dependencies": {
+    "node-essentials": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicmeisteR/Halo-Api-Tutorial.git"
+  },
+  "keywords": [
+    "API",
+    "Halo",
+    "Rest"
+  ],
+  "author": "Nicolaas Nel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicmeisteR/Halo-Api-Tutorial/issues"
+  },
+  "homepage": "https://github.com/NicmeisteR/Halo-Api-Tutorial#readme"
+}
