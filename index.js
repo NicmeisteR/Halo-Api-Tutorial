@@ -15,6 +15,7 @@ async function get(gamertag){
         serviceRecord = await node.get(
             // The below link is the api that I'm targetting and I'm passing through the gamertag.
             `https://www.haloapi.com/stats/h5/servicerecords/arena?players=${gamertag}&=`,
+            // These are the headers being passed through with the API key we set above.
             ["Ocp-Apim-Subscription-Key", apiKey]
         )
     .then(console.log("done"));
