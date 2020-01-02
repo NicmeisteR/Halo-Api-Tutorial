@@ -39,3 +39,6 @@ async function get(gamertag){
 
 // Exectue the above Async get method with the gamertag of your choice.
 get("Final Necessity");
+
+// Start an express server on localhost:3000 serving the index.html file.
+node.express(3000, "./src/");
