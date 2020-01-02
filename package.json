@@ -2,6 +2,7 @@
   "name": "halo-api-tutorial",
   "version": "1.0.0",
   "description": "Jump into the world of REST apis and the Halo 5 API.",
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "node-essentials": "^1.2.6"

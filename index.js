@@ -1,11 +1,11 @@
 // NPM package I made to do simple functions like, get requests and write files. 
 // More here: https://github.com/NicmeisteR/Node-Essentials
-const node = require("node-essentials");
+import node from "node-essentials";
 
 // The Halo 5 API key, can be found here: https://developer.haloapi.com/products/560af1e42109182040fb56fc
 // I moved it to a seprate file so I don't commit mine, just replace the placeholder in the
 // apiKey.js file with your own.
-const { apiKey } = require("./apiKey")
+import { apiKey } from "./apiKey.js";
 
 // Global Variable for the Players Service Record object.
 let serviceRecord;
@@ -20,6 +20,9 @@ async function get(gamertag){
             ["Ocp-Apim-Subscription-Key", apiKey]
         )
     .then(console.log("done"));
+    }
+    catch(err){
+        console.log(err);
     }
     finally{
 
